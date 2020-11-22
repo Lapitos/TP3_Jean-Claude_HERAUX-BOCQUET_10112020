@@ -335,6 +335,15 @@ p
     width: 100%;
 }
 
+.row-photo-big
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+}
+
 .col1 
 {
     display: flex;
@@ -365,14 +374,17 @@ p
     object-fit: cover;  
 }
 
-.row-plat
-{
+/* ==== */
+
+
+  .row-plat .barre-menu2 {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    margin: 1em;
+
     align-items: center;
-    vertical-align: middle;
-}
+    position: relative;
+    overflow: hidden;
+  }
 
 .sous-menu
 {
@@ -385,6 +397,11 @@ p
 
 
 }
+
+.hidden {
+    position: absolute;
+    right: 100vw;
+  }
 
 .sous-menu2
 {
@@ -412,7 +429,7 @@ p
 
 .barre-deco
 {
-    width: 10%;
+    width: 5%;
     height: 3px;
     margin-top: 5px;
     background-color: #99E2D0;
@@ -479,6 +496,7 @@ p
 {
     width: 25%;
     text-align: center;
+    margin-left: auto;
     padding-top: 35px;
     font-weight: bolder;
 
@@ -514,29 +532,17 @@ p
 
 .title-menu
 {
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 70px;
     font-size: 1.2em;
     text-transform: uppercase;
 }
 
-.coche-verte
-{
-	display: flex;
-	flex-direction: row;
-	background: #99E2D0;
-    width: 85px;
-    height: 100%;
-	outline: 0;
-    border-radius: 0 20px 20px 0;
-    color: white;
-    align-items: center;
-    padding-left: 40px;
-}
+
+
 
 .barre-menu2
 {
-    display: flex;
     flex-direction: row;
     width:90%;
     margin-top: 20px;
@@ -586,7 +592,6 @@ p
 {
     display: column;
     width: 100%;
-    padding-left: 20px;
     padding-top: 100px;
     margin-left: 25px;
     font-size: 1.2em;
@@ -609,4 +614,44 @@ p
     margin-bottom: 100px;
 }
 
+a 
+{
+    font-size: 0.8em;
 }
+
+label:after {
+    content: "✔";
+    position: absolute;
+    height: 100%;
+    font-size: 2em;
+    background: #99E2D0;
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    right: -5em;
+    transition: 0.5s;
+    box-shadow: 0 0 5px black;
+  }
+
+  :checked + label:after {
+    right: 0;
+
+  }
+  label{
+
+    transition:0.2s;
+    background: lightgray;
+    border-radius: 10px;
+
+  }
+  :checked + label {
+    
+    background:#F5EDFF;
+  }
+  
+
+
+  }
+  
