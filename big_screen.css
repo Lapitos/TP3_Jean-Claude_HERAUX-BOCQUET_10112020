@@ -36,7 +36,6 @@
         font-size: 500%;
     }
 
-
     
     /* partie Localisation */
     
@@ -269,7 +268,6 @@ p
     width: 100%;
     color: #ffffff;
     align-items: center;
-    vertical-align: auto;
 }
 
 .footer-logo
@@ -315,6 +313,8 @@ p
 
 /* DEBUT DE LA PARTIE RESTO 1-2-3-4 */
 
+
+
 .row-commun
 {
     display: flex;
@@ -336,7 +336,7 @@ p
     flex-direction: row;
     margin-left: 25%;
     margin-top: 15px;
-    vertical-align: auto;
+    vertical-align: middle;
     align-items: center;
 
 }
@@ -345,7 +345,7 @@ p
 {
     flex-direction: row;
     margin-left: 20%;
-    vertical-align: auto;
+    vertical-align: middle;
     align-items: center;
 }
 
@@ -353,6 +353,15 @@ p
 {
     font-family: Shrikhand, Roboto, Verdana, Geneva, sans-serif;
     font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo3
+{
+    font-family: Shrikhand, Roboto, Verdana, Geneva, sans-serif;
+    font-size: 1.8em;
+    margin-left: 50px;
 }
 
 .rest-photo
@@ -577,7 +586,7 @@ p
 
 .title-menu2
 {
-    display: column;
+
     width: 100%;
     padding-top: 100px;
     margin-left: 25px;
@@ -588,7 +597,7 @@ p
 
 .sous-menu3
 {
-    display:column;
+    display: flex;
 }
 
 .row-commande
@@ -607,7 +616,8 @@ a
 }
 
 label:after {
-    content: "✔";
+    content: url("images/check.png");
+    padding-top: 20px;
     position: absolute;
     height: 100%;
     font-size: 2em;
