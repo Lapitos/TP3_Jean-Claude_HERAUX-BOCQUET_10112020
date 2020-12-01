@@ -11,17 +11,18 @@
     body
     {
         font-family: Roboto, Verdana, Geneva, sans-serif;
-        font-size: 12px;
+        font-size: 13px;
         font-style: normal;
     }
     
-    li, a
+    li,a
     {
         text-decoration: none;
         list-style-type: none;
         text-align: center;
         color: black;
     }
+
 
     nav
     {
@@ -59,12 +60,12 @@
 
     .explorer
 {
-            margin-top: -20px;
-            width: auto;
-            height: 180px;
-            text-align: center;
+    padding-top: 20px;
+    width: auto;
+    height: 220px;
+    text-align: center;
+    font-size: 1.1em;
 }
-
 p 
 {
             color: #555;
@@ -161,7 +162,7 @@ p
         text-align: center;
         /* font style */
         font-family: Roboto, Verdana, Geneva, sans-serif;
-        font-size: medium; 
+        font-size: 1.5em; 
         color: black;
         text-decoration: none;
         font-weight: bold;
@@ -213,7 +214,7 @@ p
 {
     width: 80%;
     float: left;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bolder;
     padding-left: 10px;
     margin-top: 10px;

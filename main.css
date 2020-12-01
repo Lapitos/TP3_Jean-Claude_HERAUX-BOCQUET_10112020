@@ -47,6 +47,13 @@ div.loader
 
 /* commun */
 
+.blanc
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
 .gris
 {
     background-color: #eaeaea;
@@ -174,6 +181,7 @@ div.loader
 	        animation: scale-up-ver-bottom 0.4s linear both;
 }
 
+
 /**
  * ----------------------------------------
  * animation scale-up-ver-bottom
@@ -281,11 +289,11 @@ i
 
 .explorer
 {
-    margin-top: -20px;
+    padding-top: 20px;
     width: auto;
-    height: 150px;
+    height: 220px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 .btn-grad 
@@ -430,7 +438,7 @@ i
 {
     width: 70%;
     float: left;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bolder;
     padding-left: 10px;
     margin-top: 10px;
@@ -463,7 +471,7 @@ i
 {
     width: 70%;
     float: left;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-left: 10px;
     margin-bottom: 10px;
 }
