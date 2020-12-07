@@ -10,7 +10,7 @@
     border: 20px solid #FF79DA; /* contour rose */
     border-top: 20px solid #9356DC; /* bordure violet */
     border-radius: 50%; /* on arrondi le tout */
-    animation: spin 1s linear;
+    animation: spin 3s linear;
 	
 }
 
@@ -29,7 +29,7 @@
 50%
 {
     transform: rotate(320deg);   
-    opacity: 1;
+    opacity: 0.50;
 }
 100%
 {
@@ -41,7 +41,7 @@
 
 div.loader
 {
-    animation: spin 3s linear;
+    animation: spin 4s linear;
 	animation-fill-mode: forwards;
 }
 
@@ -184,7 +184,7 @@ div.loader
 
 /**
  * ----------------------------------------
- * animation scale-up-ver-bottom
+ * animation bas en haut
  * ----------------------------------------
  */
 @-webkit-keyframes scale-up-ver-bottom {
@@ -651,7 +651,7 @@ i
 
 .barre-deco
 {
-    width: 5%;
+    width: 35px;
     height: 3px;
     margin-top: 5px;
     background-color: #99E2D0;
@@ -823,7 +823,7 @@ i
     margin-bottom: 100px;
 }
 
-label:after {
+label::after {
     content: url("images/check.png");
     padding-top: 15px;
     position: absolute;

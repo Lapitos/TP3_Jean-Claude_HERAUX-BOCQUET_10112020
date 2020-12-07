@@ -616,7 +616,7 @@ a
     font-size: 0.8em;
 }
 
-label:after {
+label::after {
     content: url("images/check.png");
     padding-top: 20px;
     position: absolute;
